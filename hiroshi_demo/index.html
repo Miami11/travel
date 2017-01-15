@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+        body {
+            margin: 0;
+        }
+
+        /*最上方的bar*/
+
+        .navigation {
+            background-image: url("assets/imgs/header-01.jpg");
+            width: 100%;
+            text-align: center;
+            height: 150px;
+            margin: 0;
+        }
+
+        .navigation-bar {
+            height: 60px;
+            padding-top: 30px;
+        }
+
+        .nav-item-left {
+            float: left;
+            width: 500px;
+            display: inline-block;
+            height: 100%;
+            text-align: left;
+            padding: 20px;
+        }
+
+        .nav-item-left img {
+            display: inline-block;
+        }
+
+        .nav-item-left a {
+            display: inline-block;
+        }
+
+        .nav-item-center {
+            display: inline-block;
+            transform: translateX(-50%);
+            margin: 0 auto;
+            width: 200px;
+
+        }
+
+        .nav-item-center img {
+            display: inline-block;
+            max-height: 60px;
+        }
+
+        .nav-item-center a {
+            display: inline-block;
+        }
+
+        .nav-item-right {
+            display: inline-block;
+            float: right;
+            width: 500px;
+            height: 100%;
+            text-align: right;
+            padding: 20px;
+        }
+
+        .nav-item-right img {
+            display: inline-block;
+        }
+
+        .nav-item-right a {
+            display: inline-block;
+        }
+
+        /*選單按鈕*/
+        .main-menu {
+            height: 114px;
+            width: 100%;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .main-menu ul {
+            height: 100%;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            padding-top: 40px;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .main-menu li {
+            float: left;
+        }
+
+        .main-menu li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the link color to #111 (black) on hover */
+        .main-menu li a:hover {
+            background-color: #111;
+        }
+
+        /*歡迎頁面*/
+        .main-welcome {
+            height: 300px;
+            width: 100%;
+            margin: 0;
+            padding-top: 100px;
+            padding-bottom: 150px;
+            background-image: url("assets/imgs/index-02.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .main-welcome .shell {
+            text-align: center;
+        }
+
+        .shell h2 {
+            font-size: 60px;
+            color: white;
+            line-height: 0.8;
+        }
+
+        .shell span {
+            color: #abd904;
+            font-size: 50%;
+            margin-top: 5px;
+        }
+
+        .shell-text {
+            width: 100%;
+            text-align: center;
+        }
+
+        .shell-text p {
+            color: white;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        /*歡迎頁面方塊*/
+        .main-welcome-box {
+            width: 90%;
+            margin: 0 auto;
+            height: 500px;
+            margin-top: -100px;
+            background-color: rgba(171, 217, 4, 0.43);
+            position: relative;
+        }
+
+        .main-welcome-box .big-box {
+            display: inline-block;
+            width: 600px;
+            height: 200px;
+            background-color: yellow;
+            margin: 30px;
+
+        }
+
+        .main-welcome-box .small-box {
+            display: inline-block;
+            width: 400px;
+            height: 200px;
+            background-color: palegreen;
+            margin: 30px;
+
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div class="navigation">
+        <div class="navigation-bar">
+            <div class="nav-item-left">
+                <img src="assets/imgs/icon-01.png" alt="">
+                <a href="#">28 Jackson Blvd Ste 1020 <br> Chicago, IL 60604-2340</a>
+            </div>
+            <div class="nav-item-center">
+                <img src="assets/imgs/logo.png" alt="">
+            </div>
+            <div class="nav-item-right">
+                <img src="assets/imgs/icon-02.png" alt="">
+                <a href="#">28 Jackson Blvd Ste 1020 <br> Chicago, IL 60604-2340</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-menu">
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </div>
+
+    <section class="main-welcome">
+        <div class="shell">
+            <h2>Hundreds of<br><span>Destinations Worldwide.</span></h2>
+            <div class="shell-text">
+                <p>We handpicked hundreds of the most spectacular destinations on all continents. Relax your body
+                    and soul in the most remote corners of the world.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-welcome-box">
+        <div class="big-box">
+            <h3> Discover the Planet</h3>
+        </div>
+        <div class="small-box">
+            <h3> Rome</h3>
+        </div>
+        <div class="small-box">
+            <h3> Rome</h3>
+        </div>
+        <div class="big-box">
+            <h3> Discover the Planet</h3>
+        </div>
+
+    </section>
+
+</section>
+</body>
+</html>
