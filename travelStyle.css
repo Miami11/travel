@@ -1,0 +1,267 @@
+.top{
+    background-image: url(assets/topBanner.jpeg);
+    color: white;
+    margin: 0px;
+    width: 100%;
+    float: left;
+
+}
+.topSub{
+    max-width: 1200px;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.top img {
+    vertical-align: middle;
+}
+
+.toptext{
+    width: auto;
+    display: inline-block;
+    text-align: left;
+
+}
+
+.pin {
+    width: 279px;
+    display: inline-block;
+
+}
+
+.pin div{
+    display: inline-block;
+    width: 40px;
+
+}
+
+.pin p{
+    display: inline-block;
+    width: 200px;
+}
+
+
+.pinChild{
+    display: inline-block;
+}
+.top a{
+    text-decoration: none;
+    color: white;
+    transition: .22s;
+}
+.top a:hover{
+    color:black;
+
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+    overflow: hidden;
+    background-color: #333745;
+}
+
+.navbar li{
+    float: left;
+}
+
+.navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+    color: #abd904;
+}
+
+.navbar .active{
+    color: #abd904;
+}
+
+.banner {
+    background-image: url(assets/banner1.jpeg);
+    width:100%;
+    height: 650px;
+    background-size: cover;
+    text-align: center;
+    margin: auto;
+
+}
+.banner .bannerGroup {
+    width: 1200px;
+    height: 500px;
+    /*display: block;*/
+    padding: 100px;
+    margin: auto;
+}
+
+.banner .bannerText{
+    font-size: 5em;
+    color: white;
+    font-weight: bold;
+}
+
+.banner .bannerText2{
+    color: #abd904;
+    font-size: 3em;
+}
+
+.banner .bannerText3{
+    color: white;
+    width: auto;
+
+}
+
+.banner .bannerText3 p{
+    color: white;
+    width: 500px;
+    display: inline-block;
+
+}
+
+.gallery {
+    background-image: url(assets/galleryBanner.jpeg) ;
+    width: 100%;
+    height: 650px;
+    margin: 0;
+    background-size: cover;
+    vertical-align: top;
+    float: left;
+}
+.gallery .glalleryInner{
+
+    position: relative;
+    width: 720px;
+    height: 370px;
+    display: block;
+    background-color: white;
+    outline: 1px solid rebeccapurple;
+    top: -128px;
+}
+
+.gallery .place{
+    height: 370px;
+    width: 370px;
+    display: block;
+    position: absolute;
+
+
+}
+.gallery .placetext {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+.gallery .from {
+    width: 110px;
+    height: 46px;
+    padding: 5px 0;
+    background-color: #abd904;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.gallery .price {
+    width: 110px;
+    height: 46px;
+    padding: 5px 0;
+    background-color: #abd904;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.gallery .place:hover:before{
+    opacity: 0;
+    width: 370px;
+    height: 370px;
+    top: 0;
+    left: 0;
+
+}
+.gallery .place:before{
+    content: '';
+    position: absolute;
+    width: 311px;
+    height: 311px;
+    top: 28px;
+    left: 28px;
+    border: 1px solid white;
+    transition: .5s;
+
+}
+
+.numberGroup {
+    max-width: 750px;
+    height: 200px;
+    background-color: #fbfbfb;
+    display: block;
+    line-height: 25px;
+    margin: 0 100px 0 100px;
+    padding: 0 15px;
+    text-align: center;
+
+}
+
+
+
+.numberGroup .background{
+    font-size: 200px;
+    color: #cccccc;
+    position: absolute;
+    margin: 0;
+
+}
+
+.numberGroup .numberText{
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+    position: absolute;
+}
+
+.numberbutton {
+  background-color: white;
+    border: 2px solid #cccccc;
+    transition: .3s
+    padding: 50px 50px;
+    color: black;
+    margin: 60px;
+
+}
+
+.introduce{
+    background-image: url(assets/galleryBanner.jpeg);
+    float: left;
+    position: relative;
+    background-size: contain;
+}
+
+
+.date
+
+.team
+
+
+.location
+
+
